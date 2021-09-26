@@ -1,13 +1,160 @@
 body {
   margin: 0;
+  padding-top: 2rem;
+  font-size: small;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #303030;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shopping-cart-notif{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: -20%;
+  background-color: #26B4D1;
+}
+.bg-my-blue{
+  background-color: #0AB9E7;
+  border-color: #0AB9E7;
+}
+.bg-img{
+  background-image: url('components/image-components/Subtraction1@2x.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+}
+.bg-img2{
+  background-image: url('components/image-components/Subtraction1@2x.png');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position-x: -10%;
+}
+.btn-proccess{
+  min-height: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+.hover-getvisx{
+  background: linear-gradient(to right, #FFBB00, #FF6F00);
+  border-radius: 10px;
+  font-size: 14px;
+}
+.hover-getvisx:hover{
+  background: linear-gradient(to right, #ebaf0a, #ec6c09);
+}
+.distance { 
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.bg-setengah-trans{
+  background-color: #ffffff8e;
+}
+.margin-auto{
+  margin: 0 auto;
+}
+.nav-responsive{
+  display: none;
+}
+.w-resp{
+  width: 25%;
+}
+.footer-responsive{
+  text-align: left;
+}
+.w-why-we{
+  width: 75%;
+}
+.title-respons{
+  font-size: 28px;
+}
+.text-respons{
+  font-size: 150%;
+}
+
+/* Tablet */
+@media (max-width: 768px){
+  .w-resp{
+    width: 50%;
+  }
+  .title-respons{
+    font-size: 21px;
+  }
+  .footer-responsive{
+    text-align: center;
+  }  
+}
+
+/* HP */
+@media (max-width: 576px) {
+  body{
+    padding-top: 5rem;
+  }
+  .distance{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .title-respons{
+    font-size: 16px;
+  }
+  #navbar .navbar-nav{
+    margin: 0;
+  }
+  #navbar .navbar-nav:last-child{
+    display: none;
+  }
+  .nav-responsive{
+    display: block;
+  }
+  .w-resp{
+    width: 75%;
+  }
+  .bg-img{
+    background-size: 80%;
+    background-position-x: 200%;
+    background-position-y: 10%;
+  }
+  .bg-img2{
+    background-size: 80%;
+    background-position-x: -50%;
+    background-position-y: 10%;
+  }
+  .about-home2-dekstop{
+    display: none;
+  }
+  .about-home2-mobile{
+    display: block;
+  }
+  .w-why-we{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
